@@ -1,0 +1,120 @@
+/* App.css */
+.header {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.hero {
+  margin: 20px;
+}
+
+.hero-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.hero-subtitle {
+  font-size: 18px;
+}
+
+.hero-button {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.hero-button:hover {
+  background-color: #e6e6e6;
+  color: black;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.copyright {
+  font-size: 14px;
+}
+
+.features {
+  background-color: #101010;
+  color: white;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.feature {
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #e6e6e6;
+  border-radius: 8px;
+}
+
+.feature-icon {
+  font-size: 48px;
+}
+
+.feature-title {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.feature-description {
+  font-size: 16px;
+}
+
+
+.logo-container {
+    margin: 10px; /* Add spacing around the logo */
+ }
+
+ .logo {
+  width: 200px; /* Set the width and height of the logo as needed */
+  height: auto; /* Ensure that the aspect ratio is maintained */
+}
